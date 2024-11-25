@@ -1,0 +1,5 @@
+uint32 region_id
+geometry_msgs/Point position1
+geometry_msgs/Point position2
+geometry_msgs/Point position3
+geometry_msgs/Point position4

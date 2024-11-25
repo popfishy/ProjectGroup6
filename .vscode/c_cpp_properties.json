@@ -1,0 +1,41 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/zyh/ProjectGroup6/devel/include/**",
+        "/home/zyh/egoV2_multi/devel/include/**",
+        "/home/zyh/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/zyh/egoV2_multi/src/VINS-Fusion/camera_models/include/**",
+        "/home/zyh/egoV2_multi/src/DPMPC/cerlab_uav/include/**",
+        "/home/zyh/ProjectGroup6/src/communication/include/**",
+        "/home/zyh/egoV2_multi/src/ego_planner_v2/drone_detect/include/**",
+        "/home/zyh/egoV2_multi/src/ego_planner_v2/plan_manage/include/**",
+        "/home/zyh/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/**",
+        "/home/zyh/catkin_ws/src/gazebo_ros_pkgs/gazebo_ros/include/**",
+        "/home/zyh/catkin_ws/src/gazebo_ros_pkgs/gazebo_ros_control/include/**",
+        "/home/zyh/egoV2_multi/src/ego_planner_v2/path_searching/include/**",
+        "/home/zyh/egoV2_multi/src/ego_planner_v2/plan_env/include/**",
+        "/home/zyh/egoV2_multi/src/ego_planner_v2/Utils/pose_utils/include/**",
+        "/home/zyh/egoV2_multi/src/ego_planner_v2/Utils/quadrotor_msgs/include/**",
+        "/home/zyh/egoV2_multi/src/ego_planner_v2/Utils/selected_points_publisher/include/**",
+        "/home/zyh/egoV2_multi/src/ego_planner_v2/swarm_bridge/include/**",
+        "/home/zyh/egoV2_multi/src/ego_planner_v2/traj_opt/include/**",
+        "/home/zyh/egoV2_multi/src/ego_planner_v2/traj_utils/include/**",
+        "/home/zyh/egoV2_multi/src/DPMPC/trajectory_optimization/include/**",
+        "/home/zyh/egoV2_multi/src/ego_planner_v2/Utils/uav_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

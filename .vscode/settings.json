@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/zyh/ProjectGroup6/devel/lib/python3/dist-packages",
+        "/home/zyh/egoV2_multi/devel/lib/python3/dist-packages",
+        "/home/zyh/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/zyh/ProjectGroup6/devel/lib/python3/dist-packages",
+        "/home/zyh/egoV2_multi/devel/lib/python3/dist-packages",
+        "/home/zyh/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}
