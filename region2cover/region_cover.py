@@ -73,6 +73,7 @@ class RegionCover:
 
     def cover_run(self, log_time, cov_width=200):
         self.all_path = []
+        self.start_point_list = []
 
         robot = f2c.Robot(2.0, cov_width)  # 宽度 覆盖宽度 最大曲率 最大曲率变化率
         robot.setCruiseVel(41.7)  # 巡航速度
@@ -114,6 +115,11 @@ class RegionCover:
 
             self.all_path.append(path_dubins_cc)
             self.start_point_list.append(path_dubins_cc[0])
+            # add 
+            # x = path_dubins_cc[0].point.getX()
+            # y = path_dubins_cc[0].point.getZ()
+            # z = path_dubins_cc[0].point.getY()
+            # print(" x, y, z angle:", x, y, z, path_dubins_cc[0].angle)
 
             if self.is_plot:
                 i += 1
